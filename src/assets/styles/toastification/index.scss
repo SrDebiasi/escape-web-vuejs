@@ -1,0 +1,11 @@
+// Override the variables or import a file that overrides them
+$vt-color-error: #5f1111 !default;
+
+// Import the regular Vue Toastification stylesheets (or create your own)
+@import "../../../../node_modules/vue-toastification/src/scss/variables";
+@import "../../../../node_modules/vue-toastification/src/scss/toastContainer";
+@import "../../../../node_modules/vue-toastification/src/scss/toast";
+@import "../../../../node_modules/vue-toastification/src/scss/closeButton";
+@import "../../../../node_modules/vue-toastification/src/scss/progressBar";
+@import "../../../../node_modules/vue-toastification/src/scss/icon";
+@import "../../../../node_modules/vue-toastification/src/scss/animations/bounce";
